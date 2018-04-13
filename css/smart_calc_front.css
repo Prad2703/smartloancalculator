@@ -1,0 +1,95 @@
+/* 
+    Document   : smart_calc_front
+    Created on : Jun 26, 2015, 3:57:25 PM
+    Author     : Pradipta
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+root { 
+    display: block;
+}
+
+
+.smart_calc_wrapper{ width: 465px; margin: 0 auto; padding: 30px; /*background: #eaa32f;*/ padding-bottom: 30px; }
+.smart_calc_wrapper h2{ text-align: center; color: #fff; line-height: 30px; margin:0 0 10px 0;}
+.smart_calc_wrapper h2 span{ font-weight: 600; font-size:20px; font-family: 'Lato', sans-serif; display: inline-block;}
+
+.smart_calc_main_form{ width: 465px; margin: 0 auto; border-radius: 5px; position: relative;}
+.smart_calc_top{ /*width: 350px;*/ margin: 0 auto; padding:15px 0 5px 0;}
+.smart_calc_sec{ margin-bottom: 10px; text-align: center; position: relative; border-radius: 0px; height:100%; padding-right: 10px;}
+.smart_calc_top select{ background: #ebf0f4; border: none; height: 35px; width: 320px; margin: 0 auto; color: #afb1ab; cursor: pointer; padding: 0px 5px;}
+.smart_calc_top input{ background: #ebf0f4; border: none; height: 32px; min-width: 68%; margin: 0 auto; color: #afb1ab; padding: 0px 10px; float:left;}
+.smart_calc_top .form-txt{ color: #eaa32f; text-align: center; line-height: 30px; padding-left: 15px; font-size: 18px;}
+.smart_calc_sec .check{ background: url("../images/right.png") no-repeat; position: absolute; right: 25px; top: 3px; width: 30px; height: 30px;}
+.smart_calc_sec .uncheck{ background: url("../images/wrong.png") no-repeat; position: absolute; right: 25px; top: 3px; width: 30px; height: 30px;}
+ .smart_calc_sec .smart_loader{ background: url("../images/loader.GIF") no-repeat; position: absolute; right: -35px; top: 3px; width: 30px; height: 30px;}
+/*.smart_calc_main_form:after {
+content: '';
+display: block;
+border-color: transparent transparent #fff transparent;
+border-style: solid;
+border-width: 8px;
+position: absolute;
+top: -16px;
+left: 50%;
+margin-left: -8px;
+}*/
+
+.smart_calc_bottom{ position: relative; font-family: 'Open Sans', sans-serif; margin-top: 15px; background: #fff;}
+.smart_message_top_section{ width: 350px; margin: 0 auto; border-bottom: rgba(0, 0, 0, 0.4) solid 1px; padding: 0px;}
+.smart_message_top{ color: #fff; text-align: center; font-size: 15px; font-weight:400; padding-bottom: 25px;}
+.smart_monthly_payment{ text-align: center; color: #f9b448; font-size: 36px; font-weight: 700; padding-bottom: 15px; line-height:25px;}
+.smart_message_bottom{  color: #fff; text-align: center; font-size: 18px; font-weight:400; padding-bottom: 10px; }
+.smart_message_restrictions{ width: 300px; margin: 0 auto; color: #fff; text-align: center; font-size: 11px; font-weight:400; padding: 10px 30px 0px 30px; line-height: 15px;}
+/*.smart_calc_bottom:after {
+content: '';
+display: block;
+border-color: transparent transparent #014673 transparent;
+border-style: solid;
+border-width: 8px;
+position: absolute;
+top: -16px;
+left: 50%;
+margin-left: -8px;
+}*/
+.smart_calc_sec .sbHolder{ width: 80%; background: #ebf0f4 ; border: none; text-align: left; float:left;}
+.smart_calc_sec .sbHolder1{ width: 80%; float:left; border: none;}
+.smart_calc_sec .sbOptions{ padding: 0; width: 100%; background: #ebf0f4; border: none;}
+.smart_calc_sec .sbOptions a{ border: none;}
+.smart_calc_sec .sbSelector{ width: 100%;  color: #afb1ab; font-size: 14px;}
+.smart_calc_sec .sbSelector:hover{ color: #afb1ab;}
+.smart_calc_error{ padding-top: 10px; font-size: 13px; color: red !important;display: inline-block;}
+.after-arrow{ height: 13px; background: url("../images/after-arrow.png") no-repeat; margin-bottom: 15px;
+             -webkit-background-size: 100%;
+             -moz-background-size: 100%;
+             -o-background-size: 100%;
+             background-size: 100%;}
+
+.calc-label{float:left; width:15%; padding-right:2%; font-family: 'Lato', sans-serif; font-size:16px; font-weight:400; text-align:right; line-height: 30px;}
+.calc-label span{ color: red; font-weight: bold;}
+
+
+
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+    color: #fff !important; opacity: 1 !important;
+}
+
+:-moz-placeholder {
+    color: #fff !important; opacity: 1 !important;
+}
+
+::-moz-placeholder {
+    color: #fff !important; opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+    color: #fff !important; opacity: 1 !important;
+}
+.clear { clear: both; line-height: 0; margin: 0; padding: 0; margin: 0;}
+.loan_dropdown_wrap_head .sbHolder { float: left !important; max-width: 61%;}
